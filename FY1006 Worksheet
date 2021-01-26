@@ -20,20 +20,11 @@ print('Modules imported :)')
 ---
 #### Q1: differentiate the following equation (i.e. get f'(x)) 
 
-#### $f(x) = 3 x^{5} - 10 x^{2} + 21 $
+#### f(x) = 3x^5 - 10x^2 + 21 
 
-
-```python
-# Q1 answer here
-
-
-
-```
-
----
 #### Q2: For the equation:
 
-#### $f(x) = \frac{2 x^{3}}{10 x}$
+#### f(x) = (2x^3)(10x)
 
 #### Do the following: 
 
@@ -41,85 +32,44 @@ print('Modules imported :)')
 ##### 2) Calculate the tangent line at x = 4
 ##### 3) Using values of x between 1 and 10 (1 <= x <= 10) plot f(x) and the tangent at x = 4
 
-
-```python
-# Q2 Answer here
-
-
-```
-
---- 
 #### Q3 - Using sympy to differentiate f(x) to f'(x)
 ####      Plot both f(x) and f'(x) on a graph 
 
-#### $ f(x) = 3 sin (2x) $
+####  f(x) = 3 sin (2x) 
 
 ###### Note on getting the values to plot:
 
-_To get my y_values, I used a separate function using np.sin instead of sp.sin_ 
+# To get my y_values, I used a separate function using np.sin instead of sp.sin_ 
 
-_Using sp.diff and sp.lambdify worked fine for getting my f' values_
+# Using sp.diff and sp.lambdify worked fine for getting my f' values_
 
-_sp.sin doesn't seem to like taking a numpy array_
+# sp.sin doesn't seem to like taking a numpy array_
 
-
-```python
-# Q3 answer here
-
-
-```
-
---- 
 #### Q4 - For the following equation: 
 
-#### $ f(x) = \frac{1}{4}x^{4} - 2x^{2} $
+####  f(x) = (1/4)x^4 - 2x^2
 
 ##### 1) Find the critical points (where f'(x) = 0)
 ##### 2) Plot a graph of f(x) for 2.5 <= x <= 2.5 
 ##### 3) Plot each critical point on the graph, with a red triange (r^) for minima and a blue star (b*) for maxima
 
-_Hint: You should be able to use a for loop, and an if/else statement, to determine if a critical point is a minima or maxima_
+# Hint: You should be able to use a for loop, and an if/else statement, to determine if a critical point is a minima or maxima_
 
-
-
-```python
-# Q4 answer here
-
-
-```
-
---- 
 #### Q5 - for the following equation: 
 
-#### $ f(x) = 8x^{21} + 5x^5 - \sqrt{x} $
+#### f(x) = 8x^21 + 5x^5 - sqrt(x)
 
 ##### 1) Find f'(x)
 ##### 2) Find f''(x)
 ##### 3) Find f'''(x)
 
-
-```python
-# Q5 answer here
-
-
-```
-
----
 #### Q6: Use implicit differentiation to calculate dy/dx for the following equation: 
 
-#### $ f(x) = 3x^{2} + 2xy + y^{2} $
+#### f(x) = 3x^2 + 2xy + y^2
 
-
-```python
-# Q6 answer here
-
-
-```
-
----
 #### Q7: For the following equation: 
 
-#### $ f(x) = \frac{2}{5}x^{5} - x^3 + 10x $
+#### f(x) = (2/5)x^5 - x^3 + 10x 
 
 #### Do the following:
 
@@ -127,52 +77,19 @@ _Hint: You should be able to use a for loop, and an if/else statement, to determ
 ##### 2) Plot f(x) for 1 <= x <= 20
 ##### 3) Plot a tangent to the curve at x = 10 
 
-
-```python
-# Q7 answer here
-
-
-```
-
----
 #### Q8: For the following equation: 
-#### $ f(x) = 3sin(2x) - 2cos(3x) $ 
+#### f(x) = 3sin(2x) - 2cos(3x)
 
 #### Do the following: 
 ##### 1) Find f'(x)
 ##### 2) Find f''(x)
 ##### 3) Plot f(x), f'(x) and f''(x) on a graph
 
-
-```python
-# Q8 answer here 
-
-```
-
----
 #### Q9: Differentiate the following equation: 
-#### $ f(x) = \frac{1}{2} \exp{(5x)} $
+#### f(x) = (1/2)exp(5x)
 
-
-```python
-# Q9 answer here
-
-
-```
-
----
 #### Q10: Differentiate the following equation: 
 
-#### $ f(x) = 2 \log_{10}{x} $
-
-
-```python
-# Q10 answer here
-
-
-
-```
-
----
+#### f(x) = 2log10(x)
 
 #### Well done for making it to the end of today's worksheet :) 
