@@ -4,20 +4,13 @@
 
 ### Then come back here and start practicing :) 
 
----
 Run this to import all required modules first:
 
-
-```python
 # Import modules: 
 import matplotlib.pyplot as plt
 import numpy as np
 import sympy as sp
 
-print('Modules imported :)')
-```
-
----
 #### Q1: differentiate the following equation (i.e. get f'(x)) 
 
 #### f(x) = 3x^5 - 10x^2 + 21 
